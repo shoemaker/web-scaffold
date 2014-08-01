@@ -1,0 +1,44 @@
+{
+  "name": "web-scaffold",
+  "version": "0.0.1",
+  "description": "Bare-bones and reusable starting point for new web projects.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test/test.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoemaker/web-scaffold.git"
+  },
+  "author": "Brian Shoemaker <brianshoemaker@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoemaker/web-scaffold/issues"
+  },
+  "homepage": "https://github.com/shoemaker/web-scaffold",
+  "dependencies": {
+    "body-parser": "^1.5.2",
+    "compression": "^1.0.9",
+    "cookie-parser": "^1.3.2",
+    "ejs": "^1.0.0",
+    "express": "^4.7.x",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "assert": "^1.1.1",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.8.6",
+    "gulp-clean": "^0.3.1",
+    "gulp-header": "^1.0.5",
+    "gulp-imagemin": "^0.6.2",
+    "gulp-jshint": "^1.8.2",
+    "gulp-less": "^1.3.3",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-mocha": "^0.5.2",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1",
+    "mocha": "^1.21.3"
+  }
+}
