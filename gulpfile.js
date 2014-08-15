@@ -7,7 +7,7 @@ var _ = require('lodash'),
     jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
-    clean = require('gulp-clean'),
+    rimraf = require('gulp-rimraf'),
     mocha = require('gulp-mocha');
 var nodemon = require('gulp-nodemon');
 var pkg = require('./package.json'),
@@ -45,7 +45,7 @@ var targets = {
  */
 gulp.task('prepare', function() {
     return gulp.src('_.values(targets)', {read:false})
-        .pipe(clean());
+        .pipe(rimraf());
 });
 
 

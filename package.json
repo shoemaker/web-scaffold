@@ -29,7 +29,6 @@
     "assert": "^1.1.1",
     "expect.js": "^0.3.1",
     "gulp": "^3.8.6",
-    "gulp-clean": "^0.3.1",
     "gulp-header": "^1.0.5",
     "gulp-imagemin": "^0.6.2",
     "gulp-jshint": "^1.8.2",
@@ -38,6 +37,7 @@
     "gulp-mocha": "^0.5.2",
     "gulp-nodemon": "^1.0.4",
     "gulp-rename": "^1.2.0",
+    "gulp-rimraf": "^0.1.0",
     "gulp-uglify": "^0.3.1",
     "mocha": "^1.21.3"
   }
